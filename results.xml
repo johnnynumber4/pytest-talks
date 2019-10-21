@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="2" failures="0" hostname="C02T74XVFVH4" name="pytest" skipped="0" tests="3" time="0.115" timestamp="2019-09-05T16:11:36.357306"><testcase classname="Tests.sportscar.body.test_body.BodyTests" file="Tests/sportscar/body/test_body.py" line="6" name="test_can_navigate_to_a_body_page" time="0.001"><error message="test setup failure">file /Users/john.young/PyTest/Tests/sportscar/body/test_body.py, line 7
+      @mark.smoke
+      def test_can_navigate_to_a_body_page(self, browser):
+E       fixture &apos;browser&apos; not found
+&gt;       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, function_browser, metadata, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, session_browser, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+&gt;       use &apos;pytest --fixtures [testpath]&apos; for help on them.
+
+/Users/john.young/PyTest/Tests/sportscar/body/test_body.py:7</error></testcase><testcase classname="Tests.sportscar.engine.test_engine" file="Tests/sportscar/engine/test_engine.py" line="3" name="test_engine_functions_as_expected" time="0.003"><error message="test setup failure">file /Users/john.young/PyTest/Tests/sportscar/engine/test_engine.py, line 4
+  @mark.smoke
+  @mark.engine
+  def test_engine_functions_as_expected(browser):
+E       fixture &apos;browser&apos; not found
+&gt;       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, function_browser, metadata, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, session_browser, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+&gt;       use &apos;pytest --fixtures [testpath]&apos; for help on them.
+
+/Users/john.young/PyTest/Tests/sportscar/engine/test_engine.py:4</error></testcase><testcase classname="Tests.sportscar.entertainment.test_entertainment" file="Tests/sportscar/entertainment/test_entertainment.py" line="3" name="test_entertainment_functions_as_expected" time="0.002"></testcase></testsuite></testsuites>
